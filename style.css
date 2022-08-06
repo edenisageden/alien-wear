@@ -1,1 +1,64 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
+/* Variables */
+:root {
+  /* Temporary colours */
+  --color-1: white;
+  --color-2: black;
+  --font-1: font-family: 'Oswald', sans-serif;
+  --font-2: font-family: 'Roboto', sans-serif;
+}
+
+
+/* Default values */
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  color: var(--color-2);
+  font-family: var(--font-1);
+}
+
+
+/* Misc */
+.link :hover {
+  text-decoration: underline;
+}
+
+
+/* Nav */
+nav {
+  padding: 17px 0px 17px 0px;
+  display: flex;
+  justify-content: space-between;
+
+  /* Temporary border for visualising the navigation bar */
+  border-bottom: 1px;
+  border-bottom-color: var(--color-2);
+  border-bottom-style: solid;
+}
+.inner-nav-1 {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.inner-nav-1 .link {
+  margin-right: 50px;
+}
+.inner-nav-1 img {
+  height: 45px;
+  margin-right: 60px;
+}
+.link-container {
+  display: flex;
+}
+.inner-nav-2 {
+  margin-right: 45px;
+  align-self: center;
+}
+.inner-nav-2 img {
+  height: 25px;
+}
