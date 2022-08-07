@@ -36,6 +36,12 @@ a {
 }
 
 
+/* Menu */
+#Menu {
+  display: none;
+}
+
+
 /* Nav */
 nav {
   padding: 7px 0px 7px 0px;
