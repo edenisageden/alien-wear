@@ -10,10 +10,16 @@
 
     <nav>
       <div id="menu">
-        <a href="#">MEN</a>
-        <a href="#">WOMEN</a>
-        <a href="#">KIDS</a>
-        <a href="#">ACCESSORIES</a>
+        <div class="inner-menu">
+          <a href="#"><img src="images/logo-v4.svg" alt="Logo"></a>
+          <button onclick="toggleMenu()">Close</button>
+        </div>
+        <div class="menu-link">
+          <a href="#">MEN</a>
+          <a href="#">WOMEN</a>
+          <a href="#">KIDS</a>
+          <a href="#">ACCESSORIES</a>
+        </div>
       </div>
       <div class="logo-container">
         <a href="#"><img src="images/logo-v4.svg" alt="Logo"></a>
@@ -28,11 +34,12 @@
         <div class="bag-container">
           <a href="#"><img src="images/bag-v2.svg" alt="Bag"></a>
         </div>
-        <a class="menu-container" href="#" onclick="open-menu()">
+        <a class="menu-container" href="#" onclick="toggleMenu()">
           <img src="images/default.png" alt="">
         </a>
       </div>
     </nav>
 
+  <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
