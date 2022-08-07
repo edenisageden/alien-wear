@@ -27,6 +27,9 @@
 .link :hover {
   text-decoration: underline;
 }
+a {
+  font-family: var(--font-2);
+}
 
 
 /* Nav */
