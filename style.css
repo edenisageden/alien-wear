@@ -8,8 +8,8 @@
   /* Temporary colours */
   --color-1: white;
   --color-2: black;
-  --font-1: font-family: 'Oswald', sans-serif;
-  --font-2: font-family: 'Roboto', sans-serif;
+  --font-1: 'Oswald', sans-serif;
+  --font-2: 'Roboto', sans-serif;
 }
 
 
