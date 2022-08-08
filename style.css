@@ -91,7 +91,7 @@ a {
   align-items: center;
 }
 .menu-link a {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .menu-link img {
   height: 1rem;
@@ -148,7 +148,8 @@ header {
   /* margin-bottom: 100px; */
 }
 header h1 {
-  font-size: 5.5rem;
+  /* font-size: 5.5rem; */
+  font-size: 90px;
   line-height: 100px;
 }
 header a {
@@ -160,8 +161,25 @@ header p {
 }
 .inner-header {
   background-color: transparent;
-  /* padding: 120px 725px 0px 25px; */
-  padding: 6rem 20rem 0rem 2rem;
+  padding-left: 40px;
+  padding-top: 90px;
+  /* padding: 6rem 80em 0rem 2rem; */
+}
+.inner-inner-header {
+  width: 28rem;
+}
+.portrait-header-text {
+  display: none;
+  text-align: center;
+}
+.portrait-header-text h1 {
+  font-size: 55px;
+}
+.portrait-header-text p {
+  font-size: 30px;
+}
+.portrait-header-text a {
+  font-size: 17px;
 }
 
 
@@ -179,5 +197,11 @@ header p {
   header {
     width: 100vw;
     height: 50vh;
+  }
+  .inner-header {
+    display: none;
+  }
+  .portrait-header-text {
+    display: block;
   }
 }
