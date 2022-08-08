@@ -141,13 +141,14 @@ nav {
 
 header {
   height: 100vh;
-  background-image: url(images/hero-image-v7.jpg);
-  background-position: center
+  background-image: url(images/hero-image-v8.jpg);
+  background-position: 80%;
   background-size: cover;
-  margin-bottom: 100px;
+  background-repeat: no-repeat;
+  /* margin-bottom: 100px; */
 }
 header h1 {
-  font-size: 100px;
+  font-size: 5.5rem;
   line-height: 100px;
 }
 header a {
@@ -159,7 +160,8 @@ header p {
 }
 .inner-header {
   background-color: transparent;
-  padding: 120px 725px 0px 25px;
+  /* padding: 120px 725px 0px 25px; */
+  padding: 6rem 20rem 0rem 2rem;
 }
 
 
@@ -173,5 +175,9 @@ header p {
   }
   .logo-container {
     padding-left: 2rem;
+  }
+  header {
+    width: 100vw;
+    height: 50vh;
   }
 }
