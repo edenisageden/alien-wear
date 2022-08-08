@@ -62,6 +62,22 @@ a {
 }
 .menu-link {
   display: flex;
+  flex-direction: column;
+}
+.menu-link .link {
+  /* width: 100%; */
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+.menu-link a {
+  font-size: 1.5rem;
+}
+.menu-link img {
+  height: 1rem;
+}
+.link-text-container {
+  width: 80%;
 }
 
 
