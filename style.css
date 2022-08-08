@@ -8,6 +8,7 @@
   /* Temporary colours */
   --color-1: white;
   --color-2: black;
+  --color-3: #393939;
   --font-1: 'Oswald', sans-serif;
   --font-2: 'Roboto', sans-serif;
 }
@@ -36,6 +37,25 @@ body {
 }
 a {
   font-family: var(--font-2);
+}
+.emphasised-link-container a {
+  background-color: var(--color-2);
+  color: var(--color-1);
+  border-radius: 100px;
+  border-left: 16px;
+  border-right: 16px;
+  border-top: 11px;
+  border-bottom: 11px;
+  border-style: solid;
+  border-color: var(--color-2);
+}
+.emphasised-link-container {
+  margin-top: 30px;
+  background-color: transparent;
+}
+.emphasised-link-container :hover {
+  background-color: var(--color-3);
+  border-color: var(--color-3);
 }
 
 
