@@ -87,11 +87,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  /* Temporary border for visualising the navigation bar */
-  border-bottom: 1px;
-  border-bottom-color: var(--color-2);
-  border-bottom-style: solid;
 }
 .logo-container {
   padding-left: 2rem;
@@ -121,6 +116,30 @@ nav {
 .bag-menu-container {
   display: flex;
   align-items: center;
+}
+
+
+header {
+  height: 100vh;
+  background-image: url(images/hero-image-v6.jpg);
+  background-position: center
+  background-size: cover;
+  margin-bottom: 100px;
+}
+header h1 {
+  font-size: 100px;
+  line-height: 100px;
+}
+header a {
+  font-size: 17px;
+}
+header p {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.inner-header {
+  background-color: transparent;
+  padding: 120px 725px 0px 25px;
 }
 
 
