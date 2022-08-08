@@ -25,6 +25,9 @@ html {
   font-family: var(--font-1);
   box-sizing: inherit;
 }
+body {
+  overflow-x: hidden;
+}
 
 
 /* Misc */
@@ -39,7 +42,7 @@ a {
 /* Menu */
 #menu {
   position: fixed;
-  background-color: red;
+  background-color: var(--color-1);
   transition-duration: 0.15s;
   height: 100vh;
   transition-property: width;
@@ -50,8 +53,12 @@ a {
   right: 0px;
   top: 0px;
 }
-.inner-menu {
-  display: flex;
+.menu-close-container {
+  position: relative;
+  margin: 0.7rem 2rem 0.7rem auto;
+}
+.menu-close-container img {
+  height: 2rem;
 }
 .menu-link {
   display: flex;
@@ -60,7 +67,7 @@ a {
 
 /* Nav */
 nav {
-  padding: 7px 0px 7px 0px;
+  padding: 0.2rem 0rem 0.2rem 0rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
