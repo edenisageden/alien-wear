@@ -35,12 +35,11 @@ body {
 .link:hover {
   text-decoration: underline;
 }
-a {
-  font-family: var(--font-2);
-}
 .emphasised-link-container a {
   background-color: var(--color-2);
   color: var(--color-1);
+  font-size: 1rem;
+  font-family: var(--font-2);
   border-radius: 100px;
   border-left: 16px;
   border-right: 16px;
@@ -50,12 +49,41 @@ a {
   border-color: var(--color-2);
 }
 .emphasised-link-container {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   background-color: transparent;
 }
 .emphasised-link-container :hover {
   background-color: var(--color-3);
   border-color: var(--color-3);
+}
+h1 {
+  font-size: 5.6rem;
+  font-family: var(--font-1);
+  font-weight: normal;
+  line-height: 1;
+}
+h2 {
+  font-size: 3rem;
+  font-family: var(--font-1);
+  font-weight: normal;
+  line-height: 1;
+}
+h3 {
+  font-size: 2rem;
+  font-family: var(--font-1);
+  font-weight: normal;
+  line-height: 1;
+}
+h4 {
+  font-size: 1.8rem;
+  font-family: var(--font-2);
+  font-weight: normal;
+  line-height: 1;
+}
+p {
+  font-size: 1.5rem;
+  font-family: var(--font-2);
+  line-height: 1;
 }
 
 
@@ -85,13 +113,9 @@ a {
   flex-direction: column;
 }
 .menu-link .link {
-  /* width: 100%; */
   padding-left: 2rem;
   display: flex;
   align-items: center;
-}
-.menu-link a {
-  font-size: 2.5rem;
 }
 .menu-link img {
   height: 1rem;
@@ -107,6 +131,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+nav .link {
+  font-size: 1rem;
+  font-family: var(--font-2);
+  line-height: 1;
 }
 .logo-container {
   padding-left: 2rem;
@@ -145,25 +174,18 @@ header {
   background-position: 80%;
   background-size: cover;
   background-repeat: no-repeat;
-  /* margin-bottom: 100px; */
 }
-header h1 {
-  /* font-size: 5.5rem; */
-  font-size: 90px;
-  line-height: 100px;
+header h1, .portrait-header-text h2 {
+  margin-bottom: 0.7rem;
 }
-header a {
-  font-size: 17px;
-}
-header p {
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+header h4, .portrait-header-text p {
+  margin-bottom: 1.5rem;
 }
 .inner-header {
   background-color: transparent;
   padding-left: 40px;
   padding-top: 90px;
-  /* padding: 6rem 80em 0rem 2rem; */
+  width: 32rem;
 }
 .inner-inner-header {
   width: 28rem;
@@ -171,15 +193,6 @@ header p {
 .portrait-header-text {
   display: none;
   text-align: center;
-}
-.portrait-header-text h1 {
-  font-size: 55px;
-}
-.portrait-header-text p {
-  font-size: 30px;
-}
-.portrait-header-text a {
-  font-size: 17px;
 }
 
 
