@@ -309,12 +309,14 @@ footer a, footer h2, footer ul, footer img {
   background-color: var(--color-2);
 }
 .socials-container img {
-  width: 45px;
-  margin: 50px 15px 50px 15px;
+  width: 40px;
+  margin: 30px 15px 15px 30px;
 }
 .inner-footer-1, .inner-footer-2, .inner-footer-3 {
   background-color: var(--color-2);
-  margin: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 15px;
 }
 footer a {
   font-family: var(--font-2);
@@ -361,6 +363,12 @@ footer a {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 300px;
     grid-gap: 10px;
+  }
+  .inner-footer-container {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
   }
 }
 @media (max-width: 550px)
