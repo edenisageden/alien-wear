@@ -280,6 +280,38 @@ header h4, .portrait-header-text p {
 }
 
 
+/* Footer */
+footer {
+  background-color: var(--color-2);
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+footer a, footer h2, footer ul, footer img {
+  background-color: var(--color-2);
+  color: var(--color-1);
+}
+.inner-footer-container {
+  background-color: var(--color-2);
+  display: flex;
+}
+.inner-footer-container ul {
+  display: flex;
+  flex-direction: column;
+}
+.socials-container {
+  background-color: var(--color-2);
+}
+.socials-container img {
+  width: 45px;
+  margin: 50px 15px 50px 15px;
+}
+.inner-footer-1, .inner-footer-2, .inner-footer-3 {
+  background-color: var(--color-2);
+  margin: 50px;
+}
+
+
 /* Media queries */
 @media (orientation: portrait) {
   .menu-container {
