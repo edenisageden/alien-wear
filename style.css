@@ -287,6 +287,11 @@ footer {
   justify-content: space-around;
   padding-bottom: 100px;
 }
+footer h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--color-1);
+}
 footer a, footer h2, footer ul, footer img {
   background-color: var(--color-2);
   color: var(--color-1);
