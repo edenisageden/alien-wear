@@ -299,6 +299,25 @@ header h4, .portrait-header-text p {
 .product-card p {
   font-size: 1.5rem;
 }
+/* Products */
+.men-1:hover {
+  content:url("images/men/1-b.jpg");
+}
+.men-2:hover {
+  content:url("images/men/2-b.jpg");
+}
+.men-3:hover {
+  content:url("images/men/3-b.jpg");
+}
+.men-4:hover {
+  content:url("images/men/4-b.jpg");
+}
+.men-5:hover {
+  content:url("images/men/5-b.jpg");
+}
+.men-6:hover {
+  content:url("images/men/6-b.jpg");
+}
 
 /* Footer */
 footer {
