@@ -354,6 +354,10 @@ footer a {
 {
   .product-container {
     grid-template-columns: repeat(2, 1fr);
+    margin: 20px 75px 150px 75px;
+  }
+  .category-name {
+    margin-left: 75px;
   }
 }
 @media (orientation: portrait) {
@@ -385,6 +389,10 @@ footer a {
 {
   .product-container {
     grid-template-columns: repeat(1, 1fr);
+    margin: 20px 35px 150px 35px;
+  }
+  .category-name {
+    margin-left: 35px;
   }
 }
 @media (max-width: 750px)
