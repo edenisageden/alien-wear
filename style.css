@@ -94,6 +94,7 @@ p {
   width: 0vw;
   right: 0px;
   top: 0px;
+  z-index: 2;
 }
 .menu-close-container {
   position: relative;
