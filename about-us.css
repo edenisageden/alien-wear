@@ -1,0 +1,75 @@
+video {
+  /* margin-top: 380px; */
+  width: 100%;
+  z-index: -1;
+}
+.thing-container {
+  position: absolute;
+  left: 50px;
+  top: 230px;
+  /* top: 180px; */
+  width: 70%;
+}
+.thing-container h4 {
+  color: white;
+  margin-left: 6px;
+}
+.thing {
+  color: white;
+  font-size: 175px;
+}
+.main-container {
+  background-color: black;
+}
+.main-container h1, .main-container p {
+  color: white;
+}
+.main-container p {
+  font-size: 60px;
+}
+.thingy-2 {
+  width: 65%;
+  margin: 320px 20px 90px auto;
+  padding-bottom: 100px;
+}
+.flex-container, .flex-container-2 {
+  display: flex;
+  padding-bottom: 150px;
+}
+.flex-container img, .flex-container-2 img {
+  width: 54vw;
+  height: 30.375vw;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+.flex-container p, .flex-container-2 p {
+  font-size: 30px;
+  margin-left: 70px;
+}
+.flex-container-2 p {
+  margin-right: 70px;
+  margin-left: 0px;
+}
+.news-card-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+.news-card {
+  width: 30vw;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.news-card-container img {
+  width: 100%;
+  /* width: 90%; */
+  /* margin: 20px; */
+}
+.news-card p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.news-card p:hover {
+  text-decoration: underline;
+}
