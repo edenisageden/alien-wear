@@ -35,13 +35,8 @@ body {
   color: var(--color-1);
   font-size: 1rem;
   font-family: var(--font-2);
+  padding: 12px;
   border-radius: 100px;
-  border-left: 16px;
-  border-right: 16px;
-  border-top: 11px;
-  border-bottom: 11px;
-  border-style: solid;
-  border-color: var(--color-2);
 }
 .emphasised-link-container {
   background-color: transparent;
@@ -234,6 +229,7 @@ footer a {
   .logo-container {
     padding-left: 2rem;
   }
+}
 @media (max-width: 750px) {
   .inner-footer-container {
     flex-direction: column;
