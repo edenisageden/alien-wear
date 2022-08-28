@@ -2,17 +2,17 @@ video {
   width: 100%;
   z-index: -1;
 }
-.thing-container {
+.title-container {
   position: absolute;
   left: 50px;
   top: 230px;
   width: 70%;
 }
-.thing-container h4 {
+.title-container h4 {
   color: white;
   margin-left: 6px;
 }
-.thing {
+.title {
   color: white;
   font-size: 175px;
 }
@@ -25,7 +25,7 @@ video {
 .main-container p {
   font-size: 60px;
 }
-.thingy-2 {
+.title-2 {
   width: 65%;
   margin: 320px 20px 90px auto;
   padding-bottom: 100px;
@@ -77,28 +77,28 @@ video {
 }
 
 @media (max-width: 1150px) {
-  .thing {
+  .title {
     font-size: 150px;
   }
 }
 @media (max-width: 1000px) {
-  .thing {
+  .title {
     font-size: 120px;
   }
 }
 @media (max-width: 840px) {
-  .thing {
+  .title {
     font-size: 100px;
   }
 }
 @media (max-width: 750px) {
-  .thingy-2 {
+  .title-2 {
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
     width: 100vw;
   }
-  .thing-3 {
+  .title-3 {
     font-size: 10px;
   }
   .flex-container {
@@ -134,10 +134,10 @@ video {
   }
 }
 @media (max-width: 660px) {
-  .thing {
+  .title {
     font-size: 80px;
   }
-  .thing-container {
+  .title-container {
     top: 150px;
   }
   .news-card-container {
@@ -152,15 +152,15 @@ video {
   }
 }
 @media (max-width: 570px) {
-  .thing {
+  .title {
     font-size: 55px;
   }
-  .thing-2-container p {
+  .title-2-container p {
     font-size: 40px;
     margin-top: 150px;
   }
   @media (max-width: 300px) {
-    .thing {
+    .title {
       font-size: 20px;
     }
   }
