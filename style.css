@@ -118,9 +118,16 @@ p {
 /* Nav */
 nav {
   padding: 0.2rem 0rem 0.2rem 0rem;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: var(--color-1);
+  z-index: 1;
+  transition: transform 0.2s;
 }
 nav .link {
   font-size: 1rem;
@@ -150,6 +157,15 @@ nav .link {
 .bag-menu-container {
   display: flex;
   align-items: center;
+}
+.nav-hidden {
+  transform: translateY(-55px);
+}
+
+
+/* Body */
+body {
+  padding-top: 55px;
 }
 
 
