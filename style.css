@@ -75,8 +75,7 @@ p {
   line-height: 1;
 }
 .fixed-position {
-   position: fixed;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 
