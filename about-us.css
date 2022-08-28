@@ -69,6 +69,12 @@ video {
 .news-card p:hover {
   text-decoration: underline;
 }
+.nasa-credit p {
+  font-size: 16px;
+  position: absolute;
+  right: 15px;
+  top: 75px;
+}
 
 @media (max-width: 1150px) {
   .thing {
@@ -158,4 +164,3 @@ video {
       font-size: 20px;
     }
   }
-}
