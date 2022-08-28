@@ -97,3 +97,11 @@ textarea{
     margin-bottom: 80px;
 	}
 }
+
+img {
+  width: 40px;
+}
+
+.left p {
+  color: #757575;
+}
