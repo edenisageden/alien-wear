@@ -24,6 +24,7 @@
 }
 .product-card p {
   font-size: 1.5rem;
+  color: #757575;
 }
 .product-card a:hover {
   text-decoration: underline;
