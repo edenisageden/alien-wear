@@ -75,7 +75,7 @@ p {
   line-height: 1;
 }
 .fixed-position {
-   /* position: fixed; */
+   position: fixed;
   /* overflow: hidden; */
 }
 
@@ -83,6 +83,7 @@ p {
 /* Menu */
 #menu {
   position: fixed;
+  top: 0px;
   background-color: var(--color-1);
   transition-duration: 0.15s;
   height: 100vh;
@@ -92,7 +93,6 @@ p {
   flex-direction: column;
   width: 0vw;
   right: 0px;
-  top: 0px;
   z-index: 2;
 }
 .menu-close-container {
