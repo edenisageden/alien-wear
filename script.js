@@ -1,4 +1,5 @@
 const nav = document.querySelector(".nav");
+const body = document.querySelector(".body");
 let lastScrollY = window.scrollY;
 
 window.addEventListener("scroll", () => {
@@ -16,10 +17,12 @@ function toggleMenu() {
   if (document.getElementById("menu").style.width === "0%")
   {
     document.getElementById("menu").style.width = "100%";
+    body.classList.add("fixed-position");
   }
   else
   {
     document.getElementById("menu").style.width = "0%";
+    body.classList.remove("fixed-position");
   }
 }
 

@@ -74,6 +74,10 @@ p {
   font-family: var(--font-2);
   line-height: 1;
 }
+.fixed-position {
+   /* position: fixed; */
+  /* overflow: hidden; */
+}
 
 
 /* Menu */
