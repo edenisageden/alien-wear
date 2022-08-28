@@ -1,11 +1,15 @@
 /* Variables */
 :root {
-  /* Temporary colours */
-  --color-1: white;
-  --color-2: black;
-  --color-3: #393939;
   --font-1: 'Oswald', sans-serif;
   --font-2: 'Roboto', sans-serif;
+  --text-color-1: white;
+  --text-color-2: #131313;
+  --color-1: #202020;
+  --color-4: #131313;
+  --color-5: white;
+  /* --color-2: #ABF62D; */
+  --color-2: orange;
+  --color-3: #8abf30;
 }
 
 
@@ -17,21 +21,25 @@ html {
   padding: 0px;
   margin: 0px;
   text-decoration: none;
-  color: var(--color-2);
+  color: var(--text-color-1);
   font-family: var(--font-1);
   box-sizing: inherit;
+  /* background-color: var(--color-2); */
 }
 body {
   overflow-x: hidden;
+  background-color: var(--color-1);
 }
 button {
   border: none;
   background-color: transparent;
 }
-
 button:focus {
   border: none;
   outline: none;
+}
+li {
+  list-style: none;
 }
 
 
@@ -41,7 +49,7 @@ button:focus {
 }
 .emphasised-link-container a {
   background-color: var(--color-2);
-  color: var(--color-1);
+  color: var(--text-color-1);
   font-size: 1rem;
   font-family: var(--font-2);
   padding: 12px;
@@ -203,7 +211,7 @@ body {
 
 /* Footer */
 footer {
-  background-color: var(--color-2);
+  background-color: var(--color-4);
   display: flex;
   justify-content: space-around;
   padding-bottom: 100px;
@@ -211,15 +219,15 @@ footer {
 footer h4 {
   font-weight: bold;
   font-size: 1.5rem;
-  color: var(--color-1);
+  color: var(--text-color-1);
   line-height: 2;
 }
 footer a, footer h2, footer ul, footer img {
-  background-color: var(--color-2);
-  color: var(--color-1);
+  background-color: var(--color-4);
+  color: var(--text-color-1);
 }
 .inner-footer-container {
-  background-color: var(--color-2);
+  background-color: var(--color-4);
   display: flex;
 }
 .inner-footer-container ul {
@@ -227,14 +235,14 @@ footer a, footer h2, footer ul, footer img {
   flex-direction: column;
 }
 .socials-container {
-  background-color: var(--color-2);
+  background-color: var(--color-4);
 }
 .socials-container img {
   width: 40px;
   margin: 30px 15px 15px 30px;
 }
 .inner-footer-1, .inner-footer-2, .inner-footer-3, .inner-footer-4 {
-  background-color: var(--color-2);
+  background-color: var(--color-4);
   width: 150px;
   margin-top: 40px;
   margin-left: 60px
@@ -256,12 +264,12 @@ footer a {
   font-size: 1rem;
   font-family: var(--font-2);
   border-radius: 100px;
-  border: 2px solid var(--color-2);
+  border: 2px solid var(--color-5);
   padding: 7px;
 }
 .bag-container a:hover {
-  background-color: var(--color-2);
-  color: var(--color-1);
+  background-color: var(--color-5);
+  color: var(--text-color-2);
 }
 
 

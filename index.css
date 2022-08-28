@@ -8,9 +8,15 @@ header {
 }
 header h1, .portrait-header-text h2 {
   margin-bottom: 0.7rem;
+  color: var(--color-1);
 }
 header h4, .portrait-header-text p {
   margin-bottom: 1.5rem;
+  color: var(--color-1);
+}
+header .emphasised-link-container a, .content-container-2 .emphasised-link-container a {
+  /* background-color: var(--color-1); */
+  background-color: var(--color-1);;
 }
 .inner-header {
   background-color: transparent;
