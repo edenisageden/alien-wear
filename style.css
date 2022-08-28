@@ -4,8 +4,10 @@
   --color-1: white;
   --color-2: black;
   --color-3: #393939;
-  --font-1: 'Oswald', sans-serif;
-  --font-2: 'Roboto', sans-serif;
+  /* --font-1: 'Oswald', sans-serif; */
+  /* --font-2: 'Roboto', sans-serif; */
+  --font-2: 'Montserrat', sans-serif;;
+  --font-1: 'Raleway', sans-serif;
 }
 
 
